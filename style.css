@@ -1,9 +1,34 @@
+img{
+  display: block;
+  margin: 0 auto; 
+  width: 80%; 
+  height: "auto";
+  border: 40px solid white;
+  border-radius: 20px;
+}
+
+h1 {
+  font-family: Seravek, 'Gill Sans Nova', Ubuntu, Calibri, 'DejaVu Sans', source-sans-pro, sans-serif;
+}
+
 .status {
+  font-family: Seravek, 'Gill Sans Nova', Ubuntu, Calibri, 'DejaVu Sans', source-sans-pro, sans-serif;
+  font-weight: normal;
+  text-align: center;
   font-size: 2rem;
   color: #333;
 }
 
 .today {
+  font-family: Seravek, 'Gill Sans Nova', Ubuntu, Calibri, 'DejaVu Sans', source-sans-pro, sans-serif;
+  font-weight: normal;
+  text-align: center;
   font-size: 2rem;
   color: #333;
+}
+
+.footBottom {
+  font-family: Seravek, 'Gill Sans Nova', Ubuntu, Calibri, 'DejaVu Sans', source-sans-pro, sans-serif;
+  font-weight: normal;
+  text-align: center;
 }

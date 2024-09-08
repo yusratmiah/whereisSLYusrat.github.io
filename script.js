@@ -97,7 +97,7 @@ function getStatus() {
     } else if (currentHour >= 19 && currentHour < 22) {
       status = "Studying";
     } else {
-      status = "Sleeping";
+      status = "Sleeping ";
     }
   }
 
