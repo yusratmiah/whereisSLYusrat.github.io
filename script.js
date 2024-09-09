@@ -23,12 +23,25 @@ function getStatus() {
     {
       day: [1, 3],
       start: {
-        hour: 2,
+        hour: 13,
         minute: 0
       },
       end: {
-        hour: 3,
-        minute: 15
+        hour: 13,
+        minute: 59
+      },
+      status: "On-Campus- In Academic Building"
+    },
+
+    {
+      day: [1, 3],
+      start: {
+        hour: 14,
+        minute: 0
+      },
+      end: {
+        hour: 15,
+        minute: 45
       },
       status: "In-Class: BIT 4604"
     },
@@ -97,7 +110,7 @@ function getStatus() {
     } else if (currentHour >= 19 && currentHour < 22) {
       status = "Studying";
     } else {
-      status = "Sleeping ";
+      status = "Somewhere in CID";
     }
   }
 
